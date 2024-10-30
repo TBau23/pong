@@ -29,7 +29,6 @@ def main():
 
         screen.fill("black")
         for item in drawable:
-            print('HELLO')
             item.draw(screen)
 
         pygame.display.flip()
